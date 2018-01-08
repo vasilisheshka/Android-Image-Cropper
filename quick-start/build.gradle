@@ -16,6 +16,6 @@ android {
 }
 
 dependencies {
-    api project(':cropper')
-    api "com.android.support:appcompat-v7:$supportLibraryVersion"
+    compile project(':cropper')
+    compile "com.android.support:appcompat-v7:$supportLibraryVersion"
 }

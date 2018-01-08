@@ -6,7 +6,7 @@ android {
 
     defaultConfig {
         minSdkVersion 14
-        targetSdkVersion 27
+        targetSdkVersion 23
         versionCode 1
         versionName '1.0'
     }
@@ -16,7 +16,7 @@ android {
 }
 
 dependencies {
-    api "com.android.support:appcompat-v7:27.0.2"
-    api 'com.theartofdev.edmodo:android-image-cropper:2.6.+'
+    compile "com.android.support:appcompat-v7:23.0.1"
+    compile 'com.github.vasilisheshka:Android-Image-Cropper:2.6.+'
 
 }
